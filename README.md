@@ -23,32 +23,137 @@ Each organization handles it a little differently. Open the link and read the or
 
 ## The list
 
-| Logo | Organization | Link |
-|---|---|---|
-| <img src="https://github.com/Bauddhik-Geeks.png?size=40" width="40" height="40" alt="Bauddhik-Geeks"> | Bauddhik-Geeks | [Visit Org](https://github.com/Bauddhik-Geeks) |
-| <img src="https://github.com/Design-and-Code.png?size=40" width="40" height="40" alt="Design and Code"> | Design and Code | [Visit Org](https://github.com/Design-and-Code) |
-| <img src="https://github.com/Devs-Dungeon.png?size=40" width="40" height="40" alt="DEVs Dungeon"> | DEVs Dungeon | [Visit Org](https://github.com/Devs-Dungeon) |
-| <img src="https://github.com/dugsiiyeinc.png?size=40" width="40" height="40" alt="Dugsiiye"> | Dugsiiye | [Visit Org](https://github.com/dugsiiyeinc) |
-| <img src="https://github.com/EquiCode.png?size=40" width="40" height="40" alt="EquiCode"> | EquiCode | [Visit Org](https://github.com/EquiCode) |
-| <img src="https://github.com/FearlessTech.png?size=40" width="40" height="40" alt="FearlessTech"> | FearlessTech | [Visit Org](https://github.com/FearlessTech) |
-| <img src="https://github.com/fossasia.png?size=40" width="40" height="40" alt="FOSSASIA"> | FOSSASIA | [Visit Org](https://github.com/fossasia) |
-| <img src="https://github.com/GrowInCommunity.png?size=40" width="40" height="40" alt="Grow In Community"> | Grow In Community | [Visit Org](https://github.com/GrowInCommunity) |
-| <img src="https://github.com/infraform.png?size=40" width="40" height="40" alt="Infraform"> | Infraform | [Visit Org](https://github.com/infraform) |
-| <img src="https://github.com/Jaidevstudio.png?size=40" width="40" height="40" alt="JD Studio"> | JD Studio | [Visit Org](https://github.com/Jaidevstudio) |
-| <img src="https://github.com/LearnWithCommunity.png?size=40" width="40" height="40" alt="Learn With Community"> | Learn With Community | [Visit Org](https://github.com/LearnWithCommunity) |
-| <img src="https://github.com/nemsu-dev-org.png?size=40" width="40" height="40" alt="NEMSU Devs 404"> | NEMSU Devs 404 | [Visit Org](https://github.com/nemsu-dev-org) |
-| <img src="https://github.com/Open-Hub-Community.png?size=40" width="40" height="40" alt="Open Hub Community"> | Open Hub Community | [Visit Org](https://github.com/Open-Hub-Community) |
-| <img src="https://github.com/PriyanshOrg.png?size=40" width="40" height="40" alt="Priyansh Development"> | Priyansh Development | [Visit Org](https://github.com/PriyanshOrg) |
-| <img src="https://github.com/Py-Contributors.png?size=40" width="40" height="40" alt="PyContributors Developers Community"> | PyContributors Developers Community | [Visit Org](https://github.com/Py-Contributors) |
-| <img src="https://github.com/pysnippet.png?size=40" width="40" height="40" alt="PySnippet"> | PySnippet | [Visit Org](https://github.com/pysnippet) |
-| <img src="https://github.com/recodehive.png?size=40" width="40" height="40" alt="Recode Hive"> | Recode Hive | [Visit Org](https://github.com/recodehive) |
-| <img src="https://github.com/risk-first.png?size=40" width="40" height="40" alt="Risk-First"> | Risk-First | [Visit Org](https://github.com/risk-first) |
-| <img src="https://github.com/slurpcode.png?size=40" width="40" height="40" alt="slurpcode"> | slurpcode | [Visit Org](https://github.com/slurpcode) |
-| <img src="https://github.com/squarestack.png?size=40" width="40" height="40" alt="SquareStack"> | SquareStack | [Visit Org](https://github.com/squarestack) |
-| <img src="https://github.com/The-Lively-Developers-Community.png?size=40" width="40" height="40" alt="The Lively Developers Community"> | The Lively Developers Community | [Visit Org](https://github.com/The-Lively-Developers-Community) |
-| <img src="https://github.com/Th3-Shield.png?size=40" width="40" height="40" alt="The Shield"> | The Shield | [Visit Org](https://github.com/Th3-Shield) |
-| <img src="https://github.com/WebXDAO.png?size=40" width="40" height="40" alt="WebX DAO"> | WebX DAO | [Visit Org](https://github.com/WebXDAO) |
-| <img src="https://github.com/yfosp.png?size=40" width="40" height="40" alt="Your First Open Source Project"> | Your First Open Source Project | [Visit Org](https://github.com/yfosp) |
+<table width="100%">
+  <thead>
+    <tr>
+      <th>Logo</th>
+      <th align="left" width="90%">Organization</th>
+      <th align="left" width="10%">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://github.com/Bauddhik-Geeks.png?size=40" width="40" height="40" alt="Bauddhik-Geeks"></td>
+      <td>Bauddhik-Geeks</td>
+      <td><a href="https://github.com/Bauddhik-Geeks">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Design-and-Code.png?size=40" width="40" height="40" alt="Design and Code"></td>
+      <td>Design and Code</td>
+      <td><a href="https://github.com/Design-and-Code">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Devs-Dungeon.png?size=40" width="40" height="40" alt="DEVs Dungeon"></td>
+      <td>DEVs Dungeon</td>
+      <td><a href="https://github.com/Devs-Dungeon">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/dugsiiyeinc.png?size=40" width="40" height="40" alt="Dugsiiye"></td>
+      <td>Dugsiiye</td>
+      <td><a href="https://github.com/dugsiiyeinc">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/EquiCode.png?size=40" width="40" height="40" alt="EquiCode"></td>
+      <td>EquiCode</td>
+      <td><a href="https://github.com/EquiCode">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/FearlessTech.png?size=40" width="40" height="40" alt="FearlessTech"></td>
+      <td>FearlessTech</td>
+      <td><a href="https://github.com/FearlessTech">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/fossasia.png?size=40" width="40" height="40" alt="FOSSASIA"></td>
+      <td>FOSSASIA</td>
+      <td><a href="https://github.com/fossasia">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/GrowInCommunity.png?size=40" width="40" height="40" alt="Grow In Community"></td>
+      <td>Grow In Community</td>
+      <td><a href="https://github.com/GrowInCommunity">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/infraform.png?size=40" width="40" height="40" alt="Infraform"></td>
+      <td>Infraform</td>
+      <td><a href="https://github.com/infraform">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Jaidevstudio.png?size=40" width="40" height="40" alt="JD Studio"></td>
+      <td>JD Studio</td>
+      <td><a href="https://github.com/Jaidevstudio">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/LearnWithCommunity.png?size=40" width="40" height="40" alt="Learn With Community"></td>
+      <td>Learn With Community</td>
+      <td><a href="https://github.com/LearnWithCommunity">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/nemsu-dev-org.png?size=40" width="40" height="40" alt="NEMSU Devs 404"></td>
+      <td>NEMSU Devs 404</td>
+      <td><a href="https://github.com/nemsu-dev-org">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Open-Hub-Community.png?size=40" width="40" height="40" alt="Open Hub Community"></td>
+      <td>Open Hub Community</td>
+      <td><a href="https://github.com/Open-Hub-Community">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/PriyanshOrg.png?size=40" width="40" height="40" alt="Priyansh Development"></td>
+      <td>Priyansh Development</td>
+      <td><a href="https://github.com/PriyanshOrg">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Py-Contributors.png?size=40" width="40" height="40" alt="PyContributors Developers Community"></td>
+      <td>PyContributors Developers Community</td>
+      <td><a href="https://github.com/Py-Contributors">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/pysnippet.png?size=40" width="40" height="40" alt="PySnippet"></td>
+      <td>PySnippet</td>
+      <td><a href="https://github.com/pysnippet">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/recodehive.png?size=40" width="40" height="40" alt="Recode Hive"></td>
+      <td>Recode Hive</td>
+      <td><a href="https://github.com/recodehive">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/risk-first.png?size=40" width="40" height="40" alt="Risk-First"></td>
+      <td>Risk-First</td>
+      <td><a href="https://github.com/risk-first">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/slurpcode.png?size=40" width="40" height="40" alt="slurpcode"></td>
+      <td>slurpcode</td>
+      <td><a href="https://github.com/slurpcode">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/squarestack.png?size=40" width="40" height="40" alt="SquareStack"></td>
+      <td>SquareStack</td>
+      <td><a href="https://github.com/squarestack">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/The-Lively-Developers-Community.png?size=40" width="40" height="40" alt="The Lively Developers Community"></td>
+      <td>The Lively Developers Community</td>
+      <td><a href="https://github.com/The-Lively-Developers-Community">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Th3-Shield.png?size=40" width="40" height="40" alt="The Shield"></td>
+      <td>The Shield</td>
+      <td><a href="https://github.com/Th3-Shield">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/WebXDAO.png?size=40" width="40" height="40" alt="WebX DAO"></td>
+      <td>WebX DAO</td>
+      <td><a href="https://github.com/WebXDAO">Visit Org</a></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/yfosp.png?size=40" width="40" height="40" alt="Your First Open Source Project"></td>
+      <td>Your First Open Source Project</td>
+      <td><a href="https://github.com/yfosp">Visit Org</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Add your organization
 
