@@ -18,6 +18,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: lycheeverse/lychee-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          args: --no-progress --max-retries 2 --accept 200,201,204,429 --exclude "/(issues|graphs|pull|discussions)" './**/*.md'
+          args: >-
+            --no-progress --max-retries 2 --accept 200,201,204,429
+            --exclude "/(issues|graphs|pull|discussions)"
+            --exclude "github\.com/Huerte/awesome-easy-to-join-orgs"
+            --exclude "contrib\.rocks"
+            './**/*.md'
           fail: true
