@@ -59,7 +59,7 @@ If your organization is easy to join, add it to the list. You can open an issue 
 Thanks to everyone who helps this list grow. Anyone with a merged contribution shows up here automatically, whether they added one organization or fifty.
 
 <a href="https://github.com/OWNER/REPO/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=OWNER/REPO" alt="Contributors">
+  <img src="https://contrib.rocks/image?repo=Huerte/awesome-easy-to-join-orgs" alt="Contributors">
 </a>
 
 ## License
