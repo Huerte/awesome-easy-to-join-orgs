@@ -64,4 +64,4 @@ If an organization stopped accepting people or a link is dead, open an issue or 
 
 Stuck on anything? Ask in the comments of your issue or pull request. Basic questions are fine.
 
-If this list helped you, a [star](https://github.com/OWNER/REPO) helps other people find it. It is optional, and you do not need it to contribute.
+If this list helped you, a [star](https://github.com/Huerte/awesome-easy-to-join-orgs) helps other people find it. It is optional, and you do not need it to contribute.
