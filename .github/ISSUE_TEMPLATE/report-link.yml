@@ -1,0 +1,14 @@
+name: Dead link or organization closed
+description: Tell us about a link that no longer works
+title: "Fix: "
+body:
+  - type: input
+    id: org
+    attributes:
+      label: Which organization?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?

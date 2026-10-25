@@ -1,0 +1,18 @@
+name: Add an organization
+description: Suggest an organization that is easy to join
+title: "Add: "
+body:
+  - type: input
+    id: org
+    attributes:
+      label: Organization link
+      placeholder: https://github.com/example
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: How do people join?
+      description: An issue in one of its repos, a form, an email. Add a link if you have one.
+    validations:
+      required: true
