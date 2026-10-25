@@ -13,7 +13,9 @@ permissions:
   contents: read
 
 jobs:
+  # Pull requests and pushes: fail the check if a link is broken.
   lychee:
+    if: github.event_name == 'pull_request' || github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,3 +30,95 @@ jobs:
             --exclude "contrib\.rocks"
             './**/*.md'
           fail: true
+
+  # Weekly and manual runs: keep ONE tracking issue up to date instead of opening a new one each time.
+  report:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          args: >-
+            --no-progress --max-retries 2 --accept 200,201,204,429
+            --format markdown
+            --exclude "/(issues|graphs|pull|discussions)"
+            --exclude "github\.com/Huerte/awesome-easy-to-join-orgs"
+            --exclude "contrib\.rocks"
+            './**/*.md'
+          output: lychee/out.md
+          fail: false
+
+      - name: Open, update, or close the tracking issue
+        uses: actions/github-script@v7
+        env:
+          EXIT_CODE: ${{ steps.lychee.outputs.exit_code }}
+        with:
+          script: |
+            const fs = require('fs');
+            const { owner, repo } = context.repo;
+            const code = process.env.EXIT_CODE;
+            const label = 'link-check';
+            const title = 'Link check: broken links found';
+
+            // lychee exit codes: 0 = all fine, 2 = broken links found, anything else = the tool itself failed.
+            if (code !== '0' && code !== '2') {
+              core.setFailed(`Link checker failed to run (exit code ${code}); leaving issues untouched.`);
+              return;
+            }
+
+            try {
+              await github.rest.issues.getLabel({ owner, repo, name: label });
+            } catch (e) {
+              await github.rest.issues.createLabel({
+                owner, repo, name: label, color: 'fbca04',
+                description: 'Automated weekly link report',
+              });
+            }
+
+            const { data: open } = await github.rest.issues.listForRepo({
+              owner, repo, state: 'open', labels: label, per_page: 1,
+            });
+            const existing = open[0];
+
+            if (code === '0') {
+              if (existing) {
+                await github.rest.issues.createComment({
+                  owner, repo, issue_number: existing.number,
+                  body: 'The weekly check passed and every link works now. Closing this issue.',
+                });
+                await github.rest.issues.update({
+                  owner, repo, issue_number: existing.number, state: 'closed', state_reason: 'completed',
+                });
+              }
+              return;
+            }
+
+            let report = '(The report file was not found. See the workflow run for details.)';
+            if (fs.existsSync('lychee/out.md')) report = fs.readFileSync('lychee/out.md', 'utf8');
+            if (report.length > 60000) report = report.slice(0, 60000) + '\n\n_Report truncated._';
+
+            const body = [
+              'The weekly link check found links that do not work. This issue is updated in place when the results change and closes itself once everything passes.',
+              '',
+              'To fix one, open a pull request that corrects or removes the row, or comment here.',
+              '',
+              '---',
+              '',
+              report.trim(),
+            ].join('\n');
+
+            if (!existing) {
+              await github.rest.issues.create({ owner, repo, title, body, labels: [label] });
+            } else if ((existing.body || '').trim() !== body.trim()) {
+              await github.rest.issues.update({ owner, repo, issue_number: existing.number, body });
+            }
