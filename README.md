@@ -17,6 +17,8 @@ A list of GitHub organizations you can join without writing any code. For most o
 
 You do not need experience, and you do not need to be good at coding to start. Being in an organization gives you a place to learn, meet people, and join real projects whenever you feel ready.
 
+**⭐ Found this list helpful?** Please consider [starring this repository](https://github.com/Huerte/awesome-easy-to-join-orgs/stargazers) to help more people discover welcoming open-source communities!
+
 ## How to join
 
 Each organization handles it a little differently. Open the link and read the organization's README or pinned repositories for the join instructions. In most cases it is a single issue asking to be added.
