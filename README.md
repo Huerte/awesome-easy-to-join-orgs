@@ -23,32 +23,32 @@ Each organization handles it a little differently. Open the link and read the or
 
 ## The list
 
-| Logo | Organization | Link |
-|---|---|---|
-| <img src="https://github.com/Bauddhik-Geeks.png?size=40" width="40" height="40" alt="Bauddhik-Geeks"> | Bauddhik-Geeks | [Visit Org](https://github.com/Bauddhik-Geeks) |
-| <img src="https://github.com/Design-and-Code.png?size=40" width="40" height="40" alt="Design and Code"> | Design and Code | [Visit Org](https://github.com/Design-and-Code) |
-| <img src="https://github.com/Devs-Dungeon.png?size=40" width="40" height="40" alt="DEVs Dungeon"> | DEVs Dungeon | [Visit Org](https://github.com/Devs-Dungeon) |
-| <img src="https://github.com/dugsiiyeinc.png?size=40" width="40" height="40" alt="Dugsiiye"> | Dugsiiye | [Visit Org](https://github.com/dugsiiyeinc) |
-| <img src="https://github.com/EquiCode.png?size=40" width="40" height="40" alt="EquiCode"> | EquiCode | [Visit Org](https://github.com/EquiCode) |
-| <img src="https://github.com/FearlessTech.png?size=40" width="40" height="40" alt="FearlessTech"> | FearlessTech | [Visit Org](https://github.com/FearlessTech) |
-| <img src="https://github.com/fossasia.png?size=40" width="40" height="40" alt="FOSSASIA"> | FOSSASIA | [Visit Org](https://github.com/fossasia) |
-| <img src="https://github.com/GrowInCommunity.png?size=40" width="40" height="40" alt="Grow In Community"> | Grow In Community | [Visit Org](https://github.com/GrowInCommunity) |
-| <img src="https://github.com/infraform.png?size=40" width="40" height="40" alt="Infraform"> | Infraform | [Visit Org](https://github.com/infraform) |
-| <img src="https://github.com/Jaidevstudio.png?size=40" width="40" height="40" alt="JD Studio"> | JD Studio | [Visit Org](https://github.com/Jaidevstudio) |
-| <img src="https://github.com/LearnWithCommunity.png?size=40" width="40" height="40" alt="Learn With Community"> | Learn With Community | [Visit Org](https://github.com/LearnWithCommunity) |
-| <img src="https://github.com/nemsu-dev-org.png?size=40" width="40" height="40" alt="NEMSU Devs 404"> | NEMSU Devs 404 | [Visit Org](https://github.com/nemsu-dev-org) |
-| <img src="https://github.com/Open-Hub-Community.png?size=40" width="40" height="40" alt="Open Hub Community"> | Open Hub Community | [Visit Org](https://github.com/Open-Hub-Community) |
-| <img src="https://github.com/PriyanshOrg.png?size=40" width="40" height="40" alt="Priyansh Development"> | Priyansh Development | [Visit Org](https://github.com/PriyanshOrg) |
-| <img src="https://github.com/Py-Contributors.png?size=40" width="40" height="40" alt="PyContributors Developers Community"> | PyContributors Developers Community | [Visit Org](https://github.com/Py-Contributors) |
-| <img src="https://github.com/pysnippet.png?size=40" width="40" height="40" alt="PySnippet"> | PySnippet | [Visit Org](https://github.com/pysnippet) |
-| <img src="https://github.com/recodehive.png?size=40" width="40" height="40" alt="Recode Hive"> | Recode Hive | [Visit Org](https://github.com/recodehive) |
-| <img src="https://github.com/risk-first.png?size=40" width="40" height="40" alt="Risk-First"> | Risk-First | [Visit Org](https://github.com/risk-first) |
-| <img src="https://github.com/slurpcode.png?size=40" width="40" height="40" alt="slurpcode"> | slurpcode | [Visit Org](https://github.com/slurpcode) |
-| <img src="https://github.com/squarestack.png?size=40" width="40" height="40" alt="SquareStack"> | SquareStack | [Visit Org](https://github.com/squarestack) |
-| <img src="https://github.com/The-Lively-Developers-Community.png?size=40" width="40" height="40" alt="The Lively Developers Community"> | The Lively Developers Community | [Visit Org](https://github.com/The-Lively-Developers-Community) |
-| <img src="https://github.com/Th3-Shield.png?size=40" width="40" height="40" alt="The Shield"> | The Shield | [Visit Org](https://github.com/Th3-Shield) |
-| <img src="https://github.com/WebXDAO.png?size=40" width="40" height="40" alt="WebX DAO"> | WebX DAO | [Visit Org](https://github.com/WebXDAO) |
-| <img src="https://github.com/yfosp.png?size=40" width="40" height="40" alt="Your First Open Source Project"> | Your First Open Source Project | [Visit Org](https://github.com/yfosp) |
+| Logo | Organization | Description | Link |
+|---|---|---|---|
+| <img src="https://github.com/Bauddhik-Geeks.png?size=40" width="40" height="40" alt="Bauddhik-Geeks"> | Bauddhik-Geeks | A place to learn, grow and have fun. | [Visit Org](https://github.com/Bauddhik-Geeks) |
+| <img src="https://github.com/Design-and-Code.png?size=40" width="40" height="40" alt="Design and Code"> | Design and Code | Connect, collaborate and comprehend. | [Visit Org](https://github.com/Design-and-Code) |
+| <img src="https://github.com/Devs-Dungeon.png?size=40" width="40" height="40" alt="DEVs Dungeon"> | DEVs Dungeon | Open learning community connecting students, mentors, job seekers and recruiters worldwide. | [Visit Org](https://github.com/Devs-Dungeon) |
+| <img src="https://github.com/dugsiiyeinc.png?size=40" width="40" height="40" alt="Dugsiiye"> | Dugsiiye | Somali-language online school for coding and AI engineering, since 2019. | [Visit Org](https://github.com/dugsiiyeinc) |
+| <img src="https://github.com/EquiCode.png?size=40" width="40" height="40" alt="EquiCode"> | EquiCode | Helps beginners and veterans grow in a diverse learning environment. | [Visit Org](https://github.com/EquiCode) |
+| <img src="https://github.com/FearlessTech.png?size=40" width="40" height="40" alt="FearlessTech"> | FearlessTech | Open-to-all open source community building social-impact products. | [Visit Org](https://github.com/FearlessTech) |
+| <img src="https://github.com/fossasia.png?size=40" width="40" height="40" alt="FOSSASIA"> | FOSSASIA | Open technologies developed in Asia and around the globe. | [Visit Org](https://github.com/fossasia) |
+| <img src="https://github.com/GrowInCommunity.png?size=40" width="40" height="40" alt="Grow In Community"> | Grow In Community | Learn, build and grow together. | [Visit Org](https://github.com/GrowInCommunity) |
+| <img src="https://github.com/infraform.png?size=40" width="40" height="40" alt="Infraform"> | Infraform | Infraform open source platform. | [Visit Org](https://github.com/infraform) |
+| <img src="https://github.com/Jaidevstudio.png?size=40" width="40" height="40" alt="JD Studio"> | JD Studio | Open source community for collaborating on code. | [Visit Org](https://github.com/Jaidevstudio) |
+| <img src="https://github.com/LearnWithCommunity.png?size=40" width="40" height="40" alt="Learn With Community"> | Learn With Community | Learning together is the best way to learn. | [Visit Org](https://github.com/LearnWithCommunity) |
+| <img src="https://github.com/nemsu-dev-org.png?size=40" width="40" height="40" alt="NEMSU Devs 404"> | NEMSU Devs 404 | Developer community at NEMSU. | [Visit Org](https://github.com/nemsu-dev-org) |
+| <img src="https://github.com/Open-Hub-Community.png?size=40" width="40" height="40" alt="Open Hub Community"> | Open Hub Community | Open source community. | [Visit Org](https://github.com/Open-Hub-Community) |
+| <img src="https://github.com/PriyanshOrg.png?size=40" width="40" height="40" alt="Priyansh Development"> | Priyansh Development | A community for building epic things. <!-- keep --> | [Visit Org](https://github.com/PriyanshOrg) |
+| <img src="https://github.com/Py-Contributors.png?size=40" width="40" height="40" alt="PyContributors Developers Community"> | PyContributors Developers Community | Open source community, primarily for Python. | [Visit Org](https://github.com/Py-Contributors) |
+| <img src="https://github.com/pysnippet.png?size=40" width="40" height="40" alt="PySnippet"> | PySnippet | Non-profit organization contributing to open source. | [Visit Org](https://github.com/pysnippet) |
+| <img src="https://github.com/recodehive.png?size=40" width="40" height="40" alt="Recode Hive"> | Recode Hive | Community for data science enthusiasts. | [Visit Org](https://github.com/recodehive) |
+| <img src="https://github.com/risk-first.png?size=40" width="40" height="40" alt="Risk-First"> | Risk-First | Risk-First open source projects. | [Visit Org](https://github.com/risk-first) |
+| <img src="https://github.com/slurpcode.png?size=40" width="40" height="40" alt="slurpcode"> | slurpcode | Open source projects. <!-- keep --> | [Visit Org](https://github.com/slurpcode) |
+| <img src="https://github.com/squarestack.png?size=40" width="40" height="40" alt="SquareStack"> | SquareStack | Open source community. | [Visit Org](https://github.com/squarestack) |
+| <img src="https://github.com/The-Lively-Developers-Community.png?size=40" width="40" height="40" alt="The Lively Developers Community"> | The Lively Developers Community | Developer community. | [Visit Org](https://github.com/The-Lively-Developers-Community) |
+| <img src="https://github.com/Th3-Shield.png?size=40" width="40" height="40" alt="The Shield"> | The Shield | Independent hackers and bug bounty hunters. | [Visit Org](https://github.com/Th3-Shield) |
+| <img src="https://github.com/WebXDAO.png?size=40" width="40" height="40" alt="WebX DAO"> | WebX DAO | Build the future of the web together. | [Visit Org](https://github.com/WebXDAO) |
+| <img src="https://github.com/yfosp.png?size=40" width="40" height="40" alt="Your First Open Source Project"> | Your First Open Source Project | Contribute to your very first open source project. | [Visit Org](https://github.com/yfosp) |
 
 ## Add your organization
 

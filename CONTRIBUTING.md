@@ -32,10 +32,12 @@ That is all. Someone will add it to the list for you.
 3. Open `README.md` and add one row to the table, in alphabetical order
 
    ```markdown
-   | <img src="https://github.com/org-name.png?size=40" width="40" height="40" alt="Org Name"> | Org Name | [Visit Org](https://github.com/org-name) |
+   | <img src="https://github.com/org-name.png?size=40" width="40" height="40" alt="Org Name"> | Org Name | One short line about what it does | [Visit Org](https://github.com/org-name) |
    ```
 
-   Copy a row that is already there and replace the name and the org handle everywhere they appear.
+   Copy a row that is already there and replace the name, the description and the org handle everywhere they appear. Keep the description to one short line, in your own words or taken from the org's About text.
+
+   Descriptions refresh every week from each organization's About text on GitHub. If the organization has no About text, yours stays. To keep your own wording for good, add `<!-- keep -->` at the end of your description.
 
 4. Commit and push
 
@@ -54,6 +56,7 @@ Never opened a pull request before? Start with [First Contributions](https://git
 - One row per organization
 - Link to the organization's GitHub page, with no tracking parameters
 - Keep the table in alphabetical order by organization name
+- Keep the description on one line, with no `|` characters
 - Check that the link works before you submit
 
 ## Fixing or removing an entry
