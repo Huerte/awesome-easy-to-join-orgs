@@ -1,0 +1,67 @@
+name: Welcome first-timers
+
+# Runs once, when an issue or pull request is opened. It only posts a comment
+# and never checks out or runs code from the pull request, so pull_request_target is safe here.
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  welcome:
+    if: ${{ !endsWith(github.actor, '[bot]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const item = context.payload.pull_request || context.payload.issue;
+            const first = ['FIRST_TIMER', 'FIRST_TIME_CONTRIBUTOR'];
+            if (!first.includes(item.author_association)) return;
+
+            const { owner, repo } = context.repo;
+            const branch = context.payload.repository.default_branch;
+            const guide = `https://github.com/${owner}/${repo}/blob/${branch}/CONTRIBUTING.md`;
+            const login = item.user.login;
+            const isPR = Boolean(context.payload.pull_request);
+            const title = item.title || '';
+
+            let body;
+            if (isPR) {
+              body = [
+                `Thanks for your first pull request, @${login}! 🎉`,
+                '',
+                'A maintainer will review it soon. While you wait, please check:',
+                '',
+                '- The organization link works',
+                '- The row is in alphabetical order and on a single line',
+                '- The organization is easy to join (an issue, a form, or similar, with no coding test)',
+                '',
+                `The full rules are in [CONTRIBUTING.md](${guide}). If anything is unclear, ask here. Basic questions are fine.`,
+              ].join('\n');
+            } else if (/^fix:/i.test(title)) {
+              body = [
+                `Thanks for the report, @${login}!`,
+                '',
+                'A maintainer will check the link and update the list. If you already know the fix, you are welcome to open a pull request that corrects or removes the row.',
+              ].join('\n');
+            } else {
+              body = [
+                `Welcome, @${login}, and thanks for your first contribution! 🎉`,
+                '',
+                'A maintainer will review this and add it to the list. If you would like to add it yourself, '
+                  + `the steps are short and beginner-friendly in [CONTRIBUTING.md](${guide}).`,
+                '',
+                'Questions are welcome in the comments.',
+              ].join('\n');
+            }
+
+            await github.rest.issues.createComment({
+              owner, repo, issue_number: item.number, body,
+            });
