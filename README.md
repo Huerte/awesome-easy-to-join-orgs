@@ -13,11 +13,11 @@
 
 </div>
 
+> ⭐ **Found this useful?** [Give the repo a star](https://github.com/Huerte/awesome-easy-to-join-orgs) so more people can discover these communities!
+
 A list of GitHub organizations you can join without writing any code. For most of them you open an issue, they accept you, and you are a member.
 
 You do not need experience, and you do not need to be good at coding to start. Being in an organization gives you a place to learn, meet people, and join real projects whenever you feel ready.
-
-**⭐ Found this list helpful?** Please consider [starring this repository](https://github.com/Huerte/awesome-easy-to-join-orgs/stargazers) to help more people discover welcoming open-source communities!
 
 ## How to join
 
@@ -56,11 +56,17 @@ Each organization handles it a little differently. Open the link and read the or
 
 If your organization is easy to join, add it to the list. You can open an issue with the link, or add the line yourself in a pull request. The steps are in [CONTRIBUTING.md](CONTRIBUTING.md) and take a couple of minutes.
 
+## Support this project
+
+If this list helped you find a community, please consider giving it a ⭐ on GitHub. It takes one click and helps other people find this list too.
+
+[![Star this repo](https://img.shields.io/github/stars/Huerte/awesome-easy-to-join-orgs?style=social)](https://github.com/Huerte/awesome-easy-to-join-orgs/stargazers)
+
 ## Contributors
 
 Thanks to everyone who helps this list grow. Anyone with a merged contribution shows up here automatically, whether they added one organization or fifty.
 
-<a href="https://github.com/OWNER/REPO/graphs/contributors">
+<a href="https://github.com/Huerte/awesome-easy-to-join-orgs/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Huerte/awesome-easy-to-join-orgs" alt="Contributors">
 </a>
 
