@@ -2,6 +2,7 @@
 
 # Awesome Easy-to-Join Orgs
 
+[![awesome badge](https://img.shields.io/badge/-awesome-0969DA?logo=awesome-lists)](https://awesome.re)
 [![License](https://img.shields.io/badge/license-CC0--1.0-green.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](#add-your-organization)
 [![No Code Needed](https://img.shields.io/badge/no%20code-needed-7057ff.svg)](#how-to-join)
